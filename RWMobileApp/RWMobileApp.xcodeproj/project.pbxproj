@@ -16,6 +16,9 @@
 		B4C50BC827C3DBC8008B3EA4 /* RWSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BC727C3DBC8008B3EA4 /* RWSplitViewController.swift */; };
 		B4C50BCB27C3DC02008B3EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BCA27C3DC02008B3EA4 /* Constants.swift */; };
 		B4C50BCE27C3DD8D008B3EA4 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BCD27C3DD8D008B3EA4 /* NetworkingError.swift */; };
+		B4C50BD027C3E0F4008B3EA4 /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BCF27C3E0F4008B3EA4 /* ItemsModel.swift */; };
+		B4C50BD227C3E130008B3EA4 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BD127C3E130008B3EA4 /* Results.swift */; };
+		B4C50BD427C3FD84008B3EA4 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C50BD327C3FD84008B3EA4 /* Attribute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		B4C50BC727C3DBC8008B3EA4 /* RWSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWSplitViewController.swift; sourceTree = "<group>"; };
 		B4C50BCA27C3DC02008B3EA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B4C50BCD27C3DD8D008B3EA4 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		B4C50BCF27C3E0F4008B3EA4 /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
+		B4C50BD127C3E130008B3EA4 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		B4C50BD327C3FD84008B3EA4 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 		B4C50BC927C3DBE3008B3EA4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B4C50BCF27C3E0F4008B3EA4 /* ItemsModel.swift */,
+				B4C50BD327C3FD84008B3EA4 /* Attribute.swift */,
+				B4C50BD127C3E130008B3EA4 /* Results.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,7 +174,10 @@
 			files = (
 				B4C50BCB27C3DC02008B3EA4 /* Constants.swift in Sources */,
 				B46CB2BC27C392FE00293105 /* ViewController.swift in Sources */,
+				B4C50BD227C3E130008B3EA4 /* Results.swift in Sources */,
+				B4C50BD427C3FD84008B3EA4 /* Attribute.swift in Sources */,
 				B46CB2B827C392FE00293105 /* AppDelegate.swift in Sources */,
+				B4C50BD027C3E0F4008B3EA4 /* ItemsModel.swift in Sources */,
 				B4C50BC827C3DBC8008B3EA4 /* RWSplitViewController.swift in Sources */,
 				B4C50BCE27C3DD8D008B3EA4 /* NetworkingError.swift in Sources */,
 				B46CB2BA27C392FE00293105 /* SceneDelegate.swift in Sources */,
